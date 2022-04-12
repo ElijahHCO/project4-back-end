@@ -1,0 +1,1 @@
+web: gunicorn locations_api.wsgi
