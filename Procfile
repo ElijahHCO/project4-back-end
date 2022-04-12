@@ -1,1 +1,1 @@
-web: gunicorn locations_api.wsgi
+web: gunicorn snowshelves_api.wsgi
