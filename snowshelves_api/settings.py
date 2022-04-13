@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-6gm3418pz#wba&*l*!*vs_6rk6p6p6th4ra)+m*67p$v!svrl4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'obscure-caverns-42640.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'obscure-caverns-42640.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -66,7 +66,7 @@ ROOT_URLCONF = 'snowshelves_api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'projectfour', 'build')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
