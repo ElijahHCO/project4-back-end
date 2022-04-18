@@ -8,9 +8,7 @@ class LocationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Location
         fields = ('id', 'name', 'address',)
-
-
-
+        
 class EquipmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Equipment

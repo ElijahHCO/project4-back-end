@@ -23,3 +23,5 @@ class EquipmentList(generics.ListCreateAPIView):
 class EquipmentDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Equipment.objects.all().order_by('id')
     serializer_class = EquipmentSerializer
+
+    
